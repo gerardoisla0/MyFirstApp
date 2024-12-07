@@ -16,9 +16,9 @@ export const FlexExcercises = () => {
     container: {
       flex: 1,
       backgroundColor: '#b6b6b6',
-      //flexDirection: 'column',
-      //justifyContent: 'center',
-      //alignItems: 'center'
+      flexDirection: 'column',   // column eje Y / row eje x
+      justifyContent: 'center',  // mismo eje  Y
+      alignItems: 'center'   //eje contrario X
 
     },
     box: {
@@ -32,7 +32,7 @@ export const FlexExcercises = () => {
     },
     greenBox: {
       width: '100%',
-      backgroundColor: '#51ff8b',
+      backgroundColor: '#51ff8b',  // 1+2+1 = 4
     },
     blueBox: {
       backgroundColor: '#5188ff',
